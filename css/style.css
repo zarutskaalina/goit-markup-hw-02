@@ -23,24 +23,8 @@ button {
   cursor: pointer;
 }
 
-.logo-type {
-  font-family: var(--secondary-font-family);
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.17;
-  display: flex;
-  align-items: center;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #4d5ae5;
-}
-
-.second-part-logo {
+.menu-list {
   color: var(--main-color);
-}
-
-.second-part-logo-item {
-  color: #f4f4fd;
 }
 
 .menu-link {
@@ -54,6 +38,29 @@ button {
 .menu-link:focus {
   text-decoration: underline;
   color: #404bbf;
+}
+
+.logo-type {
+  font-family: var(--secondary-font-family);
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.second-part-logo {
+  color: #4d5ae5;
+}
+
+.second-part-logo-item {
+  color: #f4f4fd;
+}
+
+.contacts {
+  font-style: normal;
 }
 
 .contacts-data {
@@ -72,13 +79,17 @@ button {
 .main-title {
   font-weight: 700;
   font-size: 56px;
-  line-height: 60px;
+  line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
 }
 
 .modal-open-btn {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   width: 169px;
   height: 56px;
   background-color: #4d5ae5;
@@ -88,6 +99,10 @@ button {
 }
 
 .list-modal-open-btn {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   width: 101px;
   height: 48px;
   background: #f4f4fd;
@@ -129,10 +144,21 @@ button {
 .headline-our-work {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.1;
+  line-height: 1.2;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  color: var(--main-color);
+}
+
+.list-our-team {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--main-color);
 }
 
 .card-contant {
