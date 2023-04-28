@@ -49,10 +49,11 @@ button {
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  color: #4d5ae5;
 }
 
 .second-part-logo {
-  color: #4d5ae5;
+  color: var(--main-color);
 }
 
 .second-part-logo-item {
@@ -145,16 +146,6 @@ button {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.2;
-  text-align: center;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  color: var(--main-color);
-}
-
-.list-our-team {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
