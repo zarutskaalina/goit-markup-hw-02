@@ -88,6 +88,7 @@ button {
 
 .modal-open-btn {
   font-family: "Roboto", sans-serif;
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
@@ -127,8 +128,9 @@ button {
 .page-label {
   font-weight: 500;
   font-size: 20px;
-  line-height: 1.4;
+  line-height: 1.2;
   letter-spacing: 0.02em;
+  color: var(--main-color);
 }
 
 .description-label {
@@ -142,10 +144,14 @@ button {
   color: #f4f4fd;
 }
 
+.gallery-our-team {
+  background-color: #f4f4fd;
+}
+
 .headline-our-work {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.2;
+  line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
@@ -154,6 +160,7 @@ button {
 
 .card-contant {
   text-align: center;
+  background-color: #ffffff;
 }
 
 .dark-bg {
