@@ -6,7 +6,8 @@
 
 body {
   font-family: var(--main-font-family);
-  color: var(--main-color);
+  background-color: #ffffff;
+  color: #434455;
 }
 
 .list {
@@ -26,7 +27,7 @@ button {
   font-family: var(--secondary-font-family);
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.16;
+  line-height: 1.17;
   display: flex;
   align-items: center;
   letter-spacing: 0.03em;
