@@ -99,6 +99,11 @@ button {
   color: #ffffff;
 }
 
+.modal-open-btn:hover,
+.modal-open-btn:focus {
+  background-color: #404bbf;
+}
+
 .list-modal-open-btn {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -118,11 +123,6 @@ button {
 .list-modal-open-btn:focus {
   background: #404bbf;
   color: #ffffff;
-}
-
-.modal-open-btn:hover,
-.modal-open-btn:focus {
-  background-color: #404bbf;
 }
 
 .page-label {
