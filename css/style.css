@@ -2,8 +2,8 @@
   --main-font-family: Roboto, sans-serif;
   --secondary-font-family: Raleway, sans-serif;
   --main-color: #2e2f42;
-  --buttons-color: #4d5ae5;
-  --buttons-background-color: #f4f4fd;
+  --buttons-color: #f4f4fd;
+  --buttons-background-color: #4d5ae5;
 }
 
 body {
@@ -48,7 +48,7 @@ button {
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #4d5ae5;
+  color: var(--buttons-background-color);
 }
 
 .second-part-logo {
